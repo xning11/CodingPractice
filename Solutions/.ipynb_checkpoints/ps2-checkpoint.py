@@ -1,34 +1,34 @@
-# -- cornor case: existing 0 in array 
+# -- cornor case: existing 0 in nums  
 
-# def arrayProdExpSelf(arr):
-#     lens = len(arr)
+# def numsayProdExpSelf(nums):
+#     n = len(nums)
 #     res = 1 
-#     ans = arr 
-#     for i in range(lens):
-#         res *= arr[i] 
-#     for i in range(lens):
-#         ans[i] = res//arr[i] 
+#     ans = nums 
+#     for i in range(n):
+#         res *= nums[i] 
+#     for i in range(n):
+#         ans[i] = res//nums[i] 
 #     return ans 
 
 
-def arrayProdExpSelf(arr):
-    lens = len(arr)
-    L, R, ans = [1] * lens, [1] * lens, [1] * lens 
+def numsayProdExpSelf(nums):
+    n = len(nums)
+    L, R, ans = [1] * n, [1] * n, [1] * n 
 
-    for i in range(lens):
+    for i in range(n):
         for j in range(i):
-            L[i] *= arr[j]
-        for j in reversed(range(lens-1-i)): 
-            R[i] *= arr[lens-1-j]
+            L[i] *= nums[j]
+        for j in reversed(range(n-1-i)): 
+            R[i] *= nums[n-1-j]
         ans[i] = L[i]*R[i]
     return ans  
     
         
 example = [1, 2, 3, 4, 5] 
 print(example)
-print(arrayProdExpSelf(example)) 
+print(numsayProdExpSelf(example)) 
 
 example = [1, 2, 0, 4, 5] 
 print(example)
-print(arrayProdExpSelf(example)) 
+print(numsayProdExpSelf(example)) 
 

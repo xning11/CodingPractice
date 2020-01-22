@@ -1,11 +1,11 @@
-def twoSum(arr, k):
+def twoSum(nums, k):
     res = {} 
-    if not arr:
+    if not nums:
         return ValueError("The input is empty.")
     else: 
-        for i in range(len(arr)):
-            res[arr[i]] = k - arr[i] 
-            if (k-arr[i]) in res: 
+        for i in range(len(nums)):
+            res[nums[i]] = k - nums[i] 
+            if (k-nums[i]) in res: 
                 return True  
         return False  
             
