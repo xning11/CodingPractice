@@ -16,8 +16,7 @@ Bonus: Can you do this in one pass?
 
 ### Problem 2 -- [solution](https://github.com/xning11/DailyCodingProblem/blob/master/Solutions/ps2.py) 
 
-[Leetcode 238 - Product of Array Except Self
-](https://leetcode.com/problems/product-of-array-except-self/)
+[Leetcode 238 - Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 
 Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
 
