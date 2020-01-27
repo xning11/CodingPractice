@@ -1,5 +1,5 @@
 # Daily Coding Problem
-Coding exercises to [Daily Coding Problem](https://www.dailycodingproblem.com/). Some of these questions are similar to [Leetcode](https://leetcode.com/). 
+Coding exercises to [Daily Coding Problem](https://www.dailycodingproblem.com/). Hese is the [problem list](https://github.com/xning11/DailyCodingProblem/blob/master/Problems.md). Some of these are similar to [Leetcode](https://leetcode.com/). 
 
 
 <b>Problem 1</b> 

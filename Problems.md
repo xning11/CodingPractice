@@ -1,4 +1,4 @@
-# Problem Listing 
+# Problem List
 
 
 ## Problem 1 
