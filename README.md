@@ -71,7 +71,7 @@ An XOR linked list is a more memory efficient doubly linked list. Instead of eac
 If using a language that has no pointers (such as Python), you can assume you have access to ```get_pointer``` and ```dereference_pointer``` functions that converts between nodes and memory addresses. 
 
 
-## Problem 7 
+## Problem 7 -- [Solution](https://github.com/xning11/DailyCodingProblem/blob/master/Solutions/ps7.py) --> [Leetcode 91 - Decode Ways](https://leetcode.com/problems/decode-ways/)
 Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the number of ways it can be decoded.
 
 For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'.
